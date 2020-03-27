@@ -2,6 +2,8 @@
 
 ## Usage
 This example implements the segmentation network of the paper [Multi-label Whole Heart Segmentation Using CNNs and Anatomical Label Configurations](https://doi.org/10.1007/978-3-319-75541-0_20). The results when running the scripts may not be competely the same, as we originally trained the network with caffe and not with tensorflow. See the localization folder for examples of how to train networks for localization.
+
+You need to have the [MedicalDataAugmentationTool](https://github.com/christianpayer/MedicalDataAugmentationTool) framework downloaded and in you PYTHONPATH for the scripts to work.
 If you have problems/questions/suggestions about the code, write me a [mail](mailto:christian.payer@gmx.net)!
 
 ### Dataset preprocessing
