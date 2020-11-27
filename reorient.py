@@ -42,7 +42,7 @@ if __name__ == '__main__':
         itk.imwrite(reoriented, output_folder + basename_wo_ext + '.mha')
 
     filenames_label = glob(input_folder + '*label.nii.gz')
-    for filename in sorted(filenames):
+    for filename in sorted(filenames_label):
         basename = os.path.basename(filename)
         basename_wo_ext = basename[:basename.find('.nii.gz')]
         print(basename_wo_ext)
