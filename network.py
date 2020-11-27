@@ -1,5 +1,5 @@
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tensorflow_train.layers.layers import conv3d, concat_channels, avg_pool3d
 from tensorflow_train.layers.interpolation import upsample3d_linear
 from tensorflow_train.networks.unet_base import UnetBase
